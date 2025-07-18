@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naroju Lakshmi Narayana - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Dark Mode Toggle -->
+  <button id="darkModeToggle">🌙</button>
+<header class="card">
+  <div class="photo-wrapper">
+      <div class="profile-container">
+        <div class="rotating-border"></div>
+        <div class="profile-image-wrapper">
+          <img src="Profile.jpg" alt="Profile Photo" class="profile-pic" />
+        </div>
+      </div>
+    </div>
+  <h1 id="typing-text"></h1>
+  <p>
+    Aspiring and detail-oriented <strong> Data Analyst</strong> with hands-on experience in <strong>Power BI, SQL, and Excel for building dashboards, analyzing large 
+    datasets, and uncovering actionable insights </strong>. Proficient in using data visualization techniques, query optimization, and trend analysis to 
+    support strategic decision-making. Strong foundation in backend systems with knowledge of Java, JDBC, REST APIs, and manual testing. 
+    Eager to contribute analytical skills in a dynamic, data-driven organization focused on performance and innovation.
+  </p>
+  <button class="glow-button" onclick="downloadResume()">📥 Download Resume</button>
+</header>
+
+
+
+
+  <nav>
+    <ul>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#project-blockchain">Blockchain Project</a></li>
+      <li><a href="#project-uber">Power BI Project</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#strengths">Strengths</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="skills" class="card hidden">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>Data Analytics & Visualization:</strong> Power BI, DAX, Dashboards, Slicers, Charts, Conditional Formatting, Excel (VLOOKUP, Pivot Tables) </li>
+      <li><strong>Databases & Query Languages:</strong> SQL, MySQL, Joins, Subqueries, Aggregations, Normalization </li>
+      <li><strong>Backend Technologies:</strong>  Java, JDBC, REST API (Basics), Hibernate </li>
+      <li><strong>Data Tools & IDEs:</strong> MySQL Workbench, SQL Developer, Power BI Desktop, Eclipse IDE, EditPlus </li>
+      <li><strong>Testing & QA:</strong>  Manual Testing, STLC, Bug Reporting, Test Case Design </li>
+      <li><strong>Other Skills:</strong>  Data Cleaning, Data Modeling, Object-Oriented Programming (OOP)</li>
+      <li><strong>Soft Skills:</strong> Analytical Thinking, Team Collaboration, Quick Learner, Problem Solving </li>
+    </ul>
+  </section>
+
+  <section id="education" class="card hidden">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Computer Science</strong> – QIS College of Engineering, Ongole (CGPA: 7.95, 2024)</li>
+      <li><strong>Pre-University (MPC)</strong> – Sahithi Junior College, Giddalur (65%, 2020)</li>
+      <li><strong>SSC</strong> – Surya VidhyaNikethan School, Giddalur (90%, 2018)</li>
+    </ul>
+  </section>
+
+  <section id="project-blockchain" class="card hidden">
+    <h2>Project: Privacy-Preserving Medical Data Sharing (Blockchain)</h2>
+    <p>
+      • Developed a blockchain-based system to ensure secure and confidential sharing of medical data.<br><br>
+      • Implemented cryptographic techniques and smart contracts to regulate access and maintain data integrity.<br><br>
+      • Enabled patients to control data access while ensuring transparency, security, and efficiency in healthcare data sharing.
+    </p>
+  </section>
+
+  <section id="project-uber" class="card hidden">
+    <h2>Project: Power BI – Uber Trip Analysis Dashboard</h2>
+    <p>
+      • Designed and developed a comprehensive Power BI dashboard to uncover insights from Uber trip data.<br><br>
+      • Implemented slicers, tooltips, conditional formatting, bookmarks, dynamic titles.<br><br>
+      • Conducted vehicle-type analysis and trend tracking to support strategic decisions.
+    </p>
+  </section>
+
+  <section id="certifications" class="card hidden">
+    <h2>Courses & Certifications</h2>
+    <ul>
+      <li><strong>Full Stack Java Development Training </strong>– JSpiders</li>
+                Covered: Java, JDBC, Hibernate, Spring Boot, SQL, Web Development
+        <li><strong>Power BI Dashboard Design & Analytics</strong> – Self-Initiated Project</li>
+                Designed dashboards with DAX, bookmarks, slicers, and dynamic visuals for business insights.
+        <li><strong>SQL for Data Analysis</strong> – Udemy </li>
+                Focused on complex queries, joins, subqueries, aggregate functions, and performance tuning.
+        <li>Excel for Data Analysis – Udemy</li>
+                Advanced Excel skills: Pivot Tables, VLOOKUP, conditional formatting, and charting.
+        <li><strong>Manual Testing & QA Fundamentals</strong> – JSpiders</li>
+                STLC, SDLC, Test Case Design, Bug Reporting, RTM, and Functional Testing.
+        <li><strong>Postman – API Testing Essentials </strong>(JSpiders) </li>
+                Hands-on practice with REST API requests, response validation, and status codes
+
+    </ul>
+  </section>
+
+  <section id="hobbies" class="card hidden">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Traveling</li>
+      <li>Playing badminton</li>
+    </ul>
+  </section>
+
+  <section id="strengths" class="card hidden">
+    <h2>Strengths</h2>
+    <ul>
+      <li>Quick Learner</li>
+      <li>Positive Attitude</li>
+      <li>Creativity</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card hidden">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:narayana181613@gmail.com">narayana181613@gmail.com</a></p>
+    <p>Phone: +91-8897493292</p>
+    <p>Location: Giddalur, Andhra Pradesh, India</p>
+    <p>LinkedIn Profile: 
+    <a href="https://www.linkedin.com/in/naroju-lakshmi-narayana-434626280?trk=contact-info" target="_blank">
+      View Profile
+    </a>
+  </p>
+  </section>
+  
+
+
+  <footer>
+    <p>© 2025 Naroju Lakshmi Narayana | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
