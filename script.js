@@ -30,5 +30,5 @@ revealOnScroll();
 
 // Download Resume
 function downloadResume() {
-  window.location.href = "Narayana(Data Analyst).pdf";
+  window.location.href = "Narayana(Data Analyst)(1).pdf";
 }
